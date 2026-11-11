@@ -1,4 +1,8 @@
 package com.ywshuttle.transport.domain.enums;
 
-public class EmploymentStatus {
+public enum EmploymentStatus {
+    FULL_TIME,
+    PART_TIME,
+    CONTRACT,
+    CASUAL
 }

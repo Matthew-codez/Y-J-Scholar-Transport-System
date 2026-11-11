@@ -1,4 +1,8 @@
 package com.ywshuttle.transport.domain.enums;
 
-public class VehicleStatus {
+public enum VehicleStatus {
+    ACTIVE,
+    INACTIVE,
+    MAINTENANCE,
+    OUT_OF_SERVICE
 }
